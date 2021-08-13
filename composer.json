@@ -19,7 +19,7 @@
             "EdenAI\\": "src/"
         }
     },
-    "license": "proprietary",
+    "license": "MIT",
     "version": "1.0.4",
     "authors": [
       {
