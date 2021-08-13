@@ -25,5 +25,6 @@
         "name": "Mohamed Zayani",
         "email": "zayanimed97@gmail.com"
       }
-    ]
+    ],
+    "minimum-stability": "dev"
 }
