@@ -116,8 +116,6 @@ You can use this package by initiating your desired class using the generate API
         <th>Methods</th>
         <th>Parameters</th>
     </tr>
-
-
     <tr>
         <td rowspan='15' colspan='1'>Text</td>
         <td rowspan='4' colspan="1">keywordExtraction()</td>
@@ -132,8 +130,6 @@ You can use this package by initiating your desired class using the generate API
     <tr>
         <td> String $language (optional) </td>
     </tr>
-
-
     <tr>
         <td rowspan='4' colspan="1">namedEntityRecognition()</td>
         <td>String $text (required)</td>
@@ -147,8 +143,6 @@ You can use this package by initiating your desired class using the generate API
     <tr>
         <td> String $language (optional) </td>
     </tr>
-
-
     <tr>
         <td rowspan='4' colspan="1">sentimentAnalysis()</td>
         <td>String $text (required)</td>
@@ -162,8 +156,6 @@ You can use this package by initiating your desired class using the generate API
     <tr>
         <td> String $language (optional) </td>
     </tr>
-
-
     <tr>
         <td rowspan='3' colspan="1">syntaxAnalysis()</td>
         <td>String $text (required)</td>
@@ -174,7 +166,7 @@ You can use this package by initiating your desired class using the generate API
     <tr>
         <td> String $language (optional) </td>
     </tr>
-</table>
+</table>  
 
 
 
