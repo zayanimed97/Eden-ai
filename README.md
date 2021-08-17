@@ -153,7 +153,6 @@ You can use this package by initiating your desired class using the generate API
     <tr>
         <td> String $language (optional) </td>
     </tr>
-  
     <tr>
         <td rowspan='7' colspan='1'>Translation</td>
         <td rowspan='4' colspan="1">automaticTranslation()</td>
