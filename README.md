@@ -93,9 +93,9 @@ You can use this package by initiating your desired class using the generate API
 ```PHP
   require_once '../vendor/autoload.php';
 
-  use eden-ai/Text;
+  use EdenAI\Text;
   $text = new Text("API_KEY");
-  $output = $text->keywordExtraction(string $text[, array $keywords_to_find][, array $providers ][, string $language])
+  $output = $text->keywordExtraction(string $text[, array $keywords_to_find][, array $providers ][, string $language]);
 ```
 <table>
     <tr>
