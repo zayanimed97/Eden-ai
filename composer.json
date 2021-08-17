@@ -12,12 +12,14 @@
     "autoload": {
         "psr-4": {
             "EdenAI\\": "src/"
-        }
+        },
+        "classmap": ["src/"]
     },
     "autoload-dev": {
         "psr-4": {
             "EdenAI\\": "src/"
-        }
+        },
+        "classmap": ["src/"]
     },
     "license": "MIT",
     "version": "1.0.0",
