@@ -88,6 +88,8 @@ This is an example of how to list things you need to use the software and how to
 
 You can use this package by initiating your desired class using the generate API KEY from your account just like the example:
 
+(for possible values visit https://api.edenai.run/v1/redoc/)
+
 ```PHP
   require_once '../vendor/autoload.php';
 
