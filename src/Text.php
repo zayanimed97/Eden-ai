@@ -1,5 +1,7 @@
 <?php
 
+namespace EdenAI;
+
 use HTTP_Request2 as HTTP_Request2;
 
 class Text{
