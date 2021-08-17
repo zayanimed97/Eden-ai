@@ -92,7 +92,7 @@ This is an example of how to list things you need to use the software and how to
    ```sh
     composer require eden-ai/php-sdk
    ```
-2. Create an account at (https://app.edenai.run/user/register)
+2. Create an account at https://app.edenai.run/user/register
    
    
 3. Get your API KEY
@@ -101,9 +101,80 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+You can use this package by initiating your desired class using the generate API KEY from your account just like the example:
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+```PHP
+  require_once '../vendor/autoload.php';
+
+  use eden-ai/Text;
+  $text = new Text("API_KEY");
+  $output = $text->keywordExtraction(string $text[, array $keywords_to_find][, array $providers ][, string $language])
+```
+<table>
+    <tr>
+        <th>Class</th>
+        <th>Methods</th>
+        <th>Parameters</th>
+    </tr>
+
+
+    <tr>
+        <td rowspan='15' colspan='1'>Text</td>
+        <td rowspan='4' colspan="1">keywordExtraction()</td>
+        <td>String $text (required)</td>
+    </tr>
+    <tr>
+        <td> Array $keywords_to_find (optional) </td>
+    </tr>
+    <tr>
+        <td> Array $providers (optional) </td>
+    </tr>
+    <tr>
+        <td> String $language (optional) </td>
+    </tr>
+
+
+    <tr>
+        <td rowspan='4' colspan="1">namedEntityRecognition()</td>
+        <td>String $text (required)</td>
+    </tr>
+    <tr>
+        <td> Array $entities_to_find (optional) </td>
+    </tr>
+    <tr>
+        <td> Array $providers (optional) </td>
+    </tr>
+    <tr>
+        <td> String $language (optional) </td>
+    </tr>
+
+
+    <tr>
+        <td rowspan='4' colspan="1">sentimentAnalysis()</td>
+        <td>String $text (required)</td>
+    </tr>
+    <tr>
+        <td> Array $sentiments_to_find (optional) </td>
+    </tr>
+    <tr>
+        <td> Array $providers (optional) </td>
+    </tr>
+    <tr>
+        <td> String $language (optional) </td>
+    </tr>
+
+
+    <tr>
+        <td rowspan='3' colspan="1">syntaxAnalysis()</td>
+        <td>String $text (required)</td>
+    </tr>
+    <tr>
+        <td> Array $providers (optional) </td>
+    </tr>
+    <tr>
+        <td> String $language (optional) </td>
+    </tr>
+</table>
 
 
 
