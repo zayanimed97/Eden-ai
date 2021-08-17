@@ -1,7 +1,5 @@
 <?php
 
-require_once "../vendor/autoload.php";
-
 use HTTP_Request2 as HTTP_Request2;
 
 class Translation{
