@@ -7,7 +7,7 @@
 ***
 ***
 *** To avoid retyping too much info. Do a search and replace for the following:
-*** github_username, repo_name, twitter_handle, email, project_title, project_description
+*** zayanimed97, Eden-ai, twitter_handle, zayanimed97@gmail.com, Eden AI, project_description
 -->
 
 
@@ -32,23 +32,23 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://github.com/zayanimed97/Eden-ai">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">project_title</h3>
+  <h3 align="center">Eden AI</h3>
 
   <p align="center">
-    project_description
+    Eden AI simplifies the use and integration of AI technologies by providing a unique API connected to the best AI engines and combined with a powerful management platform
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://api.edenai.run/v1/redoc/"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://www.edenai.co/">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/zayanimed97/Eden-ai/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/zayanimed97/Eden-ai/issues">Request Feature</a>
   </p>
 </p>
 
@@ -58,12 +58,6 @@
 <details open="open">
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
   <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
@@ -82,24 +76,6 @@
 
 
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description`
-
-
-### Built With
-
-* []()
-* []()
-* []()
-
-
-
 <!-- GETTING STARTED -->
 ## Getting Started
 
@@ -108,22 +84,18 @@ To get a local copy up and running follow these simple steps.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+* Composer(https://getcomposer.org/download/)
 
 ### Installation
 
-1. Clone the repo
+1. Install Composer packages
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+    composer require eden-ai/php-sdk
    ```
-2. Install NPM packages
-   ```sh
-   npm install
-   ```
-
+2. Create an account at (https://app.edenai.run/user/register)
+   
+   
+3. Get your API KEY
 
 
 <!-- USAGE EXAMPLES -->
@@ -138,7 +110,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/zayanimed97/Eden-ai/issues) for a list of proposed features (and known issues).
 
 
 
@@ -165,9 +137,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
+Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - zayanimed97@gmail.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/zayanimed97/Eden-ai](https://github.com/zayanimed97/Eden-ai)
 
 
 
@@ -184,15 +156,15 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo_name/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/zayanimed97/repo.svg?style=for-the-badge
+[contributors-url]: https://github.com/zayanimed97/Eden-ai/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/zayanimed97/repo.svg?style=for-the-badge
+[forks-url]: https://github.com/zayanimed97/Eden-ai/network/members
+[stars-shield]: https://img.shields.io/github/stars/zayanimed97/repo.svg?style=for-the-badge
+[stars-url]: https://github.com/zayanimed97/Eden-ai/stargazers
+[issues-shield]: https://img.shields.io/github/issues/zayanimed97/repo.svg?style=for-the-badge
+[issues-url]: https://github.com/zayanimed97/Eden-ai/issues
+[license-shield]: https://img.shields.io/github/license/zayanimed97/repo.svg?style=for-the-badge
+[license-url]: https://github.com/zayanimed97/Eden-ai/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/github_username
+[linkedin-url]: https://linkedin.com/in/zayanimed97
