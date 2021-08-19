@@ -177,6 +177,88 @@ You can use this package by initiating your desired class using the generate API
     <tr>
         <td> Array $languages_to_find (optional) </td>
     </tr>
+    <tr>
+        <td rowspan='7' colspan='1'>OCR</td>
+        <td rowspan='3' colspan="1">OCRInvoice()</td>
+        <td>String $file (required)</td>
+    </tr>
+    <tr>
+        <td> String $language (optional) </td>
+    </tr>
+    <tr>
+        <td> Array $providers (optional) </td>
+    </tr>
+    <tr>
+        <td rowspan='4' colspan="1">OCR()</td>
+        <td>String $file (required)</td>
+    </tr>
+    <tr>
+        <td> String $language (optional) </td>
+    </tr>
+    <tr>
+        <td> String $text_reference (optional) </td>
+    </tr>
+    <tr>
+        <td> Array $providers (optional) </td>
+    </tr>
+    <tr>
+        <td rowspan='7' colspan='1'>Vision</td>
+        <td rowspan='2' colspan="1">explicitContentDetection()</td>
+        <td>String $file (required)</td>
+    </tr>
+    <tr>
+        <td> Array $providers (optional) </td>
+    </tr>
+    <tr>
+        <td rowspan='2' colspan="1">faceDetection()</td>
+        <td>String $file (required)</td>
+    </tr>
+    <tr>
+        <td> Array $providers (optional) </td>
+    </tr>
+    <tr>
+        <td rowspan='3' colspan="1">objectDetection()</td>
+        <td>String $file (required)</td>
+    </tr>
+    <tr>
+        <td> Array $providers (optional) </td>
+    </tr>
+    <tr>
+        <td> String $objects_to_find (optional) </td>
+    </tr>
+    <tr>
+        <td rowspan='10' colspan='1'>Speech</td>
+        <td rowspan='5' colspan="1">speechRecognition()</td>
+        <td>String $file (required)</td>
+    </tr>
+    <tr>
+        <td> String $text_to_find (optional) </td>
+    </tr>
+    <tr>
+        <td> String $language (optional) </td>
+    </tr>
+    <tr>
+        <td> Array $providers (optional) </td>
+    </tr>
+    <tr>
+        <td> Boolean $fake_call (optional) </td>
+    </tr>
+    <tr>
+        <td rowspan='5' colspan="1">textToSpeech()</td>
+        <td>String $text (required)</td>
+    </tr>
+    <tr>
+        <td> String $language (optional) </td>
+    </tr>
+    <tr>
+        <td> String $option (optional) (MALE or FEMALE) </td>
+    </tr>
+    <tr>
+        <td> Array $providers (optional) </td>
+    </tr>
+    <tr>
+        <td> String $fake_call (optional) </td>
+    </tr>
 </table>  
 
 
